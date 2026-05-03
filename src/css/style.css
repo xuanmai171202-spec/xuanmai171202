@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* Tùy chỉnh thêm các class đặc biệt nếu Tailwind mặc định chưa có */
+.section-title {
+    @apply text-4xl font-black mb-8;
+}

@@ -1,176 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Mai's Site</title>
-    <meta name="title" content="Mai's Site">
-    <meta name="description" content="Hi, my name is Mai Tran. I'm a student.">
-    <meta name="keywords" content="web, fullstack developer">
-    <meta name="robots" content="index, follow">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="language" content="English">
-    <meta name="author" content="Mai Tran Le Xuan">
-
-    <meta property="og:title" content="Mai's Site" />
-    <meta property="og:url" content="/" />
-    <meta property="og:image" content="/banner.avif" />
-    <meta name="twitter:title" content="Mai's Site">
-    <meta name="twitter:description" content="Hi, my name is Mai Tran. I'm a student.">
-    <meta name="twitter:image" content="/banner.avif">
-    <meta name="twitter:card" content="summary_large_image">
-
-    <style>
-        body, h1 {
-            font-family: "Raleway", sans-serif;
-        }
-
-        body, html {
-            height: 100%;
-            margin: 0;
-        }
-
-        .bgimg {
-            background-image: url('https://images.unsplash.com/photo-1515256722043-0f2b082ddadc?auto=format&fit=crop&q=80');
-            min-height: 100%;
-            background-position: center;
-            background-size: cover;
-        }
-    </style>
+    <title>Mai's World ✨</title>
+    <!-- Google Fonts cho phong cách đáng yêu -->
+   <link rel="icon" type="image/x-icon" href="/public/">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=DynaPuff:wght@700&display=swap" rel="stylesheet">
 </head>
+<body class="bg-[#FFF9C4] text-[#5D4037] font-['Comfortaa'] antialiased">
 
-<body> 
-    <section class="min-h-screen w-full flex flex-col justify-center items-center bg-[url('/banner.avif')] bg-cover bg-center">
-      <div class="w-full lg:w-[80%] p-12 text-gray-800">
-        <h1 class="text-6xl font-bold mb-10 grid grid-cols-1 lg:gap-5">
-          <span>Hi, my name is <span class="text-teal-400">Tran Le Xuan Mai</span></span>
-          <span class="text-gray-800">I'm a student.</span>
-        </h1>
-
-        <a href="#about-me" class="uppercase border-2 border-teal-400 p-3 hover:bg-teal-400 hover:text-white transition-colors cursor-pointer">
-          <span class="text-xl px-8 py-3 font-light focus:outline-none focus:ring focus:ring-teal-300">Know more</span>
-        </a>
-      </div>
-    </section>
-
-    <section id="about-me" class="bg-teal-400 min-h-screen w-full flex flex-col justify-center items-center p-4 lg:p-12 text-white">
-      <div class="w-full lg:w-[60%] mb-5">
-        <h2 class="uppercase text-2xl lg:text-5xl text-center font-bold text-white mb-12">About Me</h2>
-        <section id="about-me" class="bg-teal-400 min-h-screen w-full flex flex-col justify-center items-center p-4 lg:p-12 text-white">
-  <div class="w-full lg:w-[60%] mb-5">
-    <h2 class="section-title uppercase text-2xl lg:text-5xl text-center font-bold text-white mb-12">
-      About Me
-    </h2>
-
-    <div class="section-content grid grid-cols-1 gap-2 lg:grid-cols-3 lg:gap-3">
-      <div class="flex justify-center items-center text-center col-span-1">
-        <img class="object-cover max-w-xs lg:w-auto" src="https://www.pinterest.com/pin/979040406507382471/" title="My avatar" alt="My avatar" />
-      </div>
-      
-      <div class="col-span-1 lg:col-span-2 flex justify-center items-center">
-        <div class="p-0 text-center lg:p-8 lg:text-start">
-          <p class="pb-3 text-lg font-light mb-5">
-            I love programming, application development, and research software architecture...
-          </p>
-          <a href="..." target="_blank" class="uppercase border-2 border-white p-3 ...">
-            <span class="text-xl ...">View My CV</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-        
-        
-        
-        
-        
-        <div class="grid grid-cols-1 gap-2 lg:grid-cols-3 lg:gap-3">
-          <div class="flex justify-center items-center text-center col-span-1">
-            <img class="object-cover max-w-xs lg:w-auto rounded-lg shadow-lg" src="https://via.placeholder.com/300" title="My avatar" alt="My avatar" />
-          </div>
-          <div class="col-span-1 lg:col-span-2 flex justify-center items-center">
-            <div class="p-0 text-center lg:p-8 lg:text-start">
-              <p class="pb-3 text-lg font-light mb-5">
-                I love walking with my dog, listening to music, and researching software architecture. 
-                My career objective is to become a Senior Software Engineer who masters software architecture, design principles, and modern development technologies.
-              </p>
-              <a href="#" target="_blank" class="uppercase border-2 border-white p-3 text-white hover:bg-white hover:text-teal-400 transition-colors cursor-pointer">
-                <span class="text-xl px-8 py-3 font-normal focus:outline-none focus:ring focus:ring-teal-300">View My CV</span>
-              </a>
+    <!-- 1) Banner: Kiểu Sticker Tai Mèo -->
+    <section class="min-h-screen flex flex-col justify-center items-center p-6 space-y-12 bg-gradient-to-b from-[#FFF9C4] to-[#FFC1E3]">
+        <div class="flex flex-col md:flex-row items-center gap-10 max-w-5xl w-full">
+            
+            <!-- Khung ảnh Sticker có tai mèo -->
+            <div class="banner-text relative group rotate-[-5deg]">
+                <div class="absolute -top-5 left-8 w-10 h-10 bg-[#FF4081] rounded-t-full rotate-[-20deg]"></div>
+                <div class="absolute -top-5 right-8 w-10 h-10 bg-[#FF4081] rounded-t-full rotate-[20deg]"></div>
+                <div class="bg-white p-4 rounded-[40px] border-4 border-[#FF4081] shadow-[12px_12px_0px_#FF4081]">
+                    <div class="w-64 h-80 bg-gray-100 rounded-[30px] overflow-hidden">
+                        <!-- Thay ảnh của Mai vào đây nhé! -->
+          <img src="/mai-avatar.jpg" alt="Mai Profile" class="w-full h-full object-cover">                    </div>
+                </div>
             </div>
-          </div>
+
+            <!-- Nội dung Banner[cite: 2] -->
+            <div class="banner-text text-center md:text-left flex-1">
+              <h1 class="text-6xl md:text-8xl font-bold text-[#FF4081] mb-4 drop-shadow-sm" style="font-family: 'DynaPuff';">
+                    TRAN LE <br> XUAN MAI
+                </h1>
+                <div class="inline-block bg-[#64B5F6] text-white px-6 py-2 rounded-full font-bold transform rotate-2 shadow-md">
+                    SECOND-YEAR STUDENTS ✨
+                </div>
+                <p class="mt-6 text-xl text-[#8D6E63] font-medium banner-text">
+                    Hi ,i'm a student at VNUK university ,my major is CSE
+                </p>
+                <div class="mt-10 banner-cta">
+                    <a href="#about-me" class="inline-block bg-[#FF4081] text-white border-4 border-white px-10 py-4 rounded-full font-bold uppercase text-xl hover:scale-110 transition-transform shadow-lg active:scale-95">
+                        Known more 🐾
+                    </a>
+                </div>
+            </div>
         </div>
-      </div>
-      <!-- banner -->
-    <section
-      class="min-h-screen w-full flex flex-col justify-center items-center bg-[url('/banner.avif')] bg-cover bg-center">
-      <div class="w-full lg:w-[80%] p-12 text-gray-800">
-        <h1 class="text-6xl font-bold mb-10 grid grid-col-1 lg:gap-5">
-          <span class="banner-text">Hi, my name is <span class="text-teal-400">Tran Le Xuan Mai</span></span>
-          <span class="text-gray-800 banner-text">I'm the Web Developer.</span>
-        </h1>
-
-        <a href="#about-me" class="banner-cta uppercase border-2 border-teal-400 p-3 hover:bg-teal-400 hover:text-white transition-colors cursor-pointer">
-          <span class="text-xl pl-8 pr-8 pt-3 pb-3 font-light focus:outline-none focus:ring focus:ring-teal-300">Know more</span>
-        </a>
-      </div>
-    </section>
-    <!-- banner ./ -->
-
     </section>
 
-    <section id="contact" class="bg-white min-h-[500px] w-full flex flex-col justify-center items-center p-6 lg:p-12 text-gray-800">
-      <div class="w-full lg:w-[60%] mb-5">
-        <h2 class="uppercase text-2xl lg:text-5xl text-center font-bold mb-6">Contact</h2>
-        <p class="flex flex-col justify-center items-center pt-5 pb-5 text-center">
-          <span class="text-2xl text-teal-500 mb-3">I LOOK FORWARD TO WORKING WITH YOU</span>
-          <span>I'm so happy that my skills might bring values to you. Let's connect for work</span>
-        </p>
-      </div>
-      <a href="mailto:xuanmai171202@gmail.com?subject=Hi Mai, I want to connect with you!"
-        class="border-2 border-teal-400 px-8 py-3 bg-teal-400 text-white hover:bg-white hover:text-teal-400 transition-colors cursor-pointer">
-        <span class="text-xl uppercase font-light focus:outline-none focus:ring focus:ring-teal-300">Send An Email Now</span>
-      </a>
-      <section id="contact" class="bg-white min-h-[500px] w-full flex flex-col justify-center items-center p-6 lg:p-12 text-gray-800">
-  <div class="w-full lg:w-[60%] mb-5">
-    
-    <h2 class="section-title uppercase text-2xl lg:text-5xl text-center font-bold mb-6">
-      Contact
-    </h2>
-    
-    <div class="section-content">
-      <p class="flex flex-col justify-center items-center pt-5 pb-5 text-center">
-        <span class="text-2xl text-teal-500 mb-3">I LOOK FORWARD TO WORKING WITH YOU</span>
-        <span>Let's connect for work</span>
-      </p>
+    <!-- 2) About Me: Kỹ năng kiểu bảng màu[cite: 2] -->
+    <section id="about-me" class="py-24 px-6 bg-white/50 backdrop-blur-sm">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="section-title text-4xl font-bold text-center mb-16 text-[#FF4081] underline decoration-wavy">ABOUT ME</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                
+                <!-- Hard Skills[cite: 2] -->
+                <div class="section-content bg-[#E3F2FD] border-4 border-[#64B5F6] p-8 rounded-[40px] shadow-[8px_8px_0px_#64B5F6]">
+                    <h3 class="text-2xl font-bold text-[#1976D2] mb-6">Hard Skills? 💻</h3>
+                    <ul class="space-y-4 font-bold text-[#1565C0]">
+                        <li class="flex items-center">✦ Hard skills are the technical abilities I use for work, like Java programming and building websites.<br> They also include knowing how computer <br>architecture works to make systems run better.</li>
+                        
+                    </ul>
+                </div>
 
-      <div class="flex justify-center mt-8">
-        <a href="mailto:your-email@example.com" class="section-content border-2 border-teal-400 p-3 hover:bg-teal-400 hover:text-white transition-colors cursor-pointer">
-          <span class="text-xl uppercase pl-8 pr-8 pt-3 pb-3 font-light">Send An Email Now</span>
-        </a>
-      </div>
-    </div>
-
-  </div>
-</section>
+                <!-- Soft Skills & Interests[cite: 2] -->
+                <div class="section-content bg-[#F1F8E9] border-4 border-[#8BC34A] p-8 rounded-[40px] shadow-[8px_8px_0px_#8BC34A] transform rotate-2">
+                    <h3 class="text-2xl font-bold text-[#388E3C] mb-6">Interests? 🎨</h3>
+                    <ul class="space-y-4 font-bold text-[#2E7D32]">
+                        <li class="flex items-center">✦ Drawing landscapes</li>
+                        <li class="flex items-center">✦ Going on trips </li>
+                        <li class="flex items-center">✦ Taking care of pets 🐶</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <footer class="bg-neutral-900 min-h-[300px] pt-12 pb-12 flex flex-row justify-center items-center">
-      <div class="w-[60%] flex flex-col justify-center items-center text-center">
-        <ul class="flex flex-row">
-          <li class="px-4 cursor-pointer hover:-translate-y-2 transition-transform">
-            <a href="https://github.com/nghuuquyen" target="_blank">
-              <img class="w-10 grayscale hover:grayscale-0" src="/imgs/github.svg" alt="GitHub" />
+    <!--  Contact] -->
+    <section id="contact" class="py-24 px-6 text-center">
+        <div class="section-content max-w-3xl mx-auto p-12 bg-white rounded-[50px] border-4 border-[#FF4081] shadow-[15px_15px_0px_#FF4081] relative overflow-hidden">
+            <div class="absolute -right-10 -bottom-10 w-40 h-40 bg-[#FFC1E3] rounded-full opacity-30"></div>
+            
+            <h2 class="section-title text-5xl font-bold mb-8 text-[#FF4081]"> Contact !</h2>
+            <div class="space-y-4 mb-10 font-bold text-[#8D6E63]"> 
+              <p   class="text-[#64B5F6]">I LOOK FORWARD TO WORKING WITH YOU </p>
+       <p class="text-lg">Email: <span class="text-[#FF4081]">xuanmai171202@gmail.com</span></p>
+                <p class="text-lg">Location: <span class="text-[#64B5F6]">Da Nang, Vietnam</span></p>
+            </div>
+            
+            <a href="mailto:xuanmai171202@gmail.com" 
+               class="inline-block bg-[#FF4081] text-white px-12 py-5 rounded-full font-bold uppercase text-xl hover:rotate-3 transition-all shadow-md active:scale-95">
+                Send Email Now  📧
             </a>
-          </li>
-          </ul>
-        <hr class="w-1/2 border-gray-500 mt-10"/>
-        <p class="text-lg text-gray-500 mt-5">©2026 - Mai Tran Le Xuan</p>
-      </div>
-    </footer>
+        </div>
+    </section>
+<!-- footer -->
+<footer class="bg-[#B2E2F2] min-h-[300px] pt-12 pb-12 flex flex-row justify-center items-center">
+  <div class="w-[60%] flex flex-col justify-center items-center">
+    <ul class="flex flex-row">
+      <li class="pl-4 pr-4 cursor-pointer hover:-translate-y-2">
+        <a href="https://twitter.com/nghuuquyen" target="_blank">
+          <!-- Đã bỏ grayscale để hiện màu icon gốc hoặc bạn có thể thay bằng icon hồng -->
+          <img class="w-10 hover:scale-110 transition-transform" src="/public/twitter.svg" />
+        </a>
+      </li>
+      <li class="pl-4 pr-4 cursor-pointer hover:-translate-y-2">
+                <a href="https://www.linkedin.com/in/nghuuquyen" target="_blank">
 
+          <img class="w-10 hover:scale-110 transition-transform" src="/linkedin.svg" />
+        </a>
+        
+      </li>
+      <li class="pl-4 pr-4 cursor-pointer hover:-translate-y-2">
+                <a href="https://www.github.com/nghuuquyen" target="_blank">
+
+          <img class="w-10 hover:scale-110 transition-transform" src="/github.svg" />
+        </a>
+      </li>
+    </ul>
+
+    <!-- Đổi màu đường kẻ ngang sang hồng nhạt -->
+    <hr class="w-1/2 border-[#FFB7B2] mt-10"/>
+    
+    <!-- Đổi màu chữ sang hồng đậm hơn một chút để dễ đọc trên nền xanh -->
+    <p class="text-lg text-[#FF4081] font-bold mt-5">©2026 - Tran Le Xuan Mai</p>
+  </div>
+</footer>
+<!-- footer ./ -->
+    
+    <!-- Script kết nối ứng dụng[cite: 2] -->
     <script type="module" src="/src/scripts/application.js"></script>
 </body>
 </html>

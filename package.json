@@ -1,7 +1,7 @@
 {
-  "name": "git",
-  "type": "commonjs",
+  "name": "buil-porfortfolio-website",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -20,14 +20,15 @@
     "url": "https://github.com/xuanmai171202-spec/xuanmai171202/issues"
   },
   "homepage": "https://github.com/xuanmai171202-spec/xuanmai171202#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.2.4",
+    "scrollreveal": "^4.0.9"
+  },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.2.4",
     "autoprefixer": "^10.5.0",
-    "postcss": "^8.5.12",
+    "postcss": "^8.5.13",
     "tailwindcss": "^4.2.4",
     "vite": "^8.0.10"
-  },
-  "dependencies": {
-    "scrollreveal": "^4.0.9"
   }
 }
